@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,7 @@
 body {
   background-color: black;
   color: white;
+  font-family: "PT Serif", serif;
 }
 body .hero {
   background-image: url("./img/wallpaper_battlefield_2042_01_1920x1080.jpg");
@@ -16,5 +18,15 @@ body .hero {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+body .section-one {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
