@@ -7,6 +7,20 @@
     min-height:100vh;
     color:white;
 }
+@mixin game{
+            width: 200px;
+            height: 350px;
+            border-radius: 17px;
+            
+}
+@mixin button {
+                border-radius: 40px;
+               padding: 10px 30px;
+               border: none;
+               background-color: #4a5d79;
+               color:white;
+               transition: .5s;
+}
 
 *{
     margin:0;
@@ -17,6 +31,7 @@ body{
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
+    cursor: url('./img/14197462201580211788-128.png');
 
     .hero{
         background-image: url("./img/wallpaper_battlefield_2042_01_1920x1080.jpg");
@@ -50,12 +65,8 @@ body{
             padding-top: 10vh;
 
            .create{
-               border-radius: 40px;
-               padding: 10px 30px;
-               border: none;
-               background-color: #4a5d79;
-               color:white;
-               transition: .5s;
+               @include button;
+               
 
            }
            .create:hover{
@@ -67,5 +78,47 @@ body{
                line-height: 2;
            }
        }
+    }
+    .section-two{
+        @include section;
+
+        .col-md-3{
+            display: flex;
+            justify-content: center;
+            margin-top: 5vh;
+        }
+
+        .game-one{
+            @include game;  
+            background-image: url('./img/PUBG-Phone-Wallpaper-05-1080x2340.jpg');
+            background-size: cover;
+            background-position: center;
+        
+        }
+        .game-one{
+            @include game;  
+            background-image: url('./img/PUBG-Phone-Wallpaper-05-1080x2340.jpg');
+            background-size: cover;
+            background-position: center;
+        
+        }
+        .cover{
+            @include game;
+            display: flex;
+            flex-direction: column;
+            justify-content:end;
+            align-items: center;
+            padding-bottom: 30px;
+            opacity: 0;
+            transition: .5s;
+            border: 5px solid #4a5d79;
+        }
+        .cover:hover{
+            opacity: 1;
+            background-color: rgba($color: #000000, $alpha:0.4);
+        }
+        button{
+            @include button;
+        }
     }
 }

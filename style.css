@@ -9,6 +9,7 @@ body {
   background-color: black;
   color: white;
   font-family: "Roboto", sans-serif;
+  cursor: url("./img/14197462201580211788-128.png");
 }
 body .hero {
   background-image: url("./img/wallpaper_battlefield_2042_01_1920x1080.jpg");
@@ -58,4 +59,57 @@ body .section-one .right .create:hover {
 }
 body .section-one .right p {
   line-height: 2;
+}
+body .section-two {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+}
+body .section-two .col-md-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+body .section-two .game-one {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  background-image: url("./img/PUBG-Phone-Wallpaper-05-1080x2340.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body .section-two .game-one {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  background-image: url("./img/PUBG-Phone-Wallpaper-05-1080x2340.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body .section-two .cover {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+  opacity: 0;
+  transition: 0.5s;
+  border: 5px solid #4a5d79;
+}
+body .section-two .cover:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .section-two button {
+  border-radius: 40px;
+  padding: 10px 30px;
+  border: none;
+  background-color: #4a5d79;
+  color: white;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
