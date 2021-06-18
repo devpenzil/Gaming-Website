@@ -165,4 +165,8 @@ body .section-two button {
   color: white;
   transition: 0.5s;
   cursor: url("./img/14197462201580211788-128.png"), auto;
+}
+body .section-two .view-button {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }/*# sourceMappingURL=style.css.map */
