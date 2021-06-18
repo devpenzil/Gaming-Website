@@ -9,7 +9,7 @@ body {
   background-color: black;
   color: white;
   font-family: "Roboto", sans-serif;
-  cursor: url("./img/14197462201580211788-128.png");
+  cursor: url("./img/14197462201580211788-128.png"), auto;
 }
 body .hero {
   background-image: url("./img/wallpaper_battlefield_2042_01_1920x1080.jpg");
@@ -51,6 +51,7 @@ body .section-one .right .create {
   background-color: #4a5d79;
   color: white;
   transition: 0.5s;
+  cursor: url("./img/14197462201580211788-128.png"), auto;
 }
 body .section-one .right .create:hover {
   padding: 10px 40px;
@@ -67,6 +68,9 @@ body .section-two {
   min-height: 100vh;
   color: white;
 }
+body .section-two .row {
+  margin-top: 5vh;
+}
 body .section-two .col-md-3 {
   display: flex;
   justify-content: center;
@@ -80,11 +84,59 @@ body .section-two .game-one {
   background-size: cover;
   background-position: center;
 }
-body .section-two .game-one {
+body .section-two .game-two {
   width: 200px;
   height: 350px;
   border-radius: 17px;
-  background-image: url("./img/PUBG-Phone-Wallpaper-05-1080x2340.jpg");
+  background-image: url("./img/2204600.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body .section-two .game-three {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  background-image: url("./img/wp5491484-lords-mobile-wallpapers.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body .section-two .game-four {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  background-image: url("./img/wp6780616-football-game-wallpapers.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body .section-two .game-five {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  background-image: url("./img/clash_of_clans.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body .section-two .game-six {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  background-image: url("./img/wp2444648-temple-run-wallpapers.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body .section-two .game-seven {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  background-image: url("./img/1960639.png");
+  background-size: cover;
+  background-position: center;
+}
+body .section-two .game-eight {
+  width: 200px;
+  height: 350px;
+  border-radius: 17px;
+  background-image: url("./img/wp4773188-phone-free-fire-wallpapers.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -112,4 +164,5 @@ body .section-two button {
   background-color: #4a5d79;
   color: white;
   transition: 0.5s;
+  cursor: url("./img/14197462201580211788-128.png"), auto;
 }/*# sourceMappingURL=style.css.map */

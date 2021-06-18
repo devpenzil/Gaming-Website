@@ -20,6 +20,8 @@
                background-color: #4a5d79;
                color:white;
                transition: .5s;
+               cursor: url('./img/14197462201580211788-128.png'), auto;
+
 }
 
 *{
@@ -31,7 +33,7 @@ body{
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
-    cursor: url('./img/14197462201580211788-128.png');
+    cursor: url('./img/14197462201580211788-128.png'), auto;
 
     .hero{
         background-image: url("./img/wallpaper_battlefield_2042_01_1920x1080.jpg");
@@ -82,6 +84,10 @@ body{
     .section-two{
         @include section;
 
+        .row{
+            margin-top:5vh;
+        }
+
         .col-md-3{
             display: flex;
             justify-content: center;
@@ -95,12 +101,47 @@ body{
             background-position: center;
         
         }
-        .game-one{
+        .game-two{
             @include game;  
-            background-image: url('./img/PUBG-Phone-Wallpaper-05-1080x2340.jpg');
+            background-image: url('./img/2204600.jpg');
             background-size: cover;
             background-position: center;
-        
+        }
+        .game-three{
+            @include game;  
+            background-image: url('./img/wp5491484-lords-mobile-wallpapers.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .game-four{
+            @include game;  
+            background-image: url('./img/wp6780616-football-game-wallpapers.jpg');
+            background-size: cover;
+            background-position: center
+        }
+        .game-five{
+            @include game;  
+            background-image: url('./img/clash_of_clans.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .game-six{
+            @include game;  
+            background-image: url('./img/wp2444648-temple-run-wallpapers.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .game-seven{
+            @include game;  
+            background-image: url('./img/1960639.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .game-eight{
+            @include game;  
+            background-image: url('./img/wp4773188-phone-free-fire-wallpapers.jpg');
+            background-size: cover;
+            background-position: center;
         }
         .cover{
             @include game;
