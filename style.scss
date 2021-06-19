@@ -35,6 +35,44 @@ body{
     font-family: 'Roboto', sans-serif;
     cursor: url('./img/14197462201580211788-128.png'), auto;
 
+    .navbar-one{
+        height:80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba($color: #000000, $alpha:0.7);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 10px 10px 20px #000000;
+        
+
+        .logo{
+            width:40px;
+            height:40px;
+            margin-top:20px;
+             margin-bottom: 20px;
+        }
+        .menu{
+            color:white;
+            text-decoration: none;
+            font-size:24px;
+            cursor: url('./img/14197462201580211788-128.png'), auto;
+        }
+       
+
+        .left{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .right{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+    }
+}
+
     .hero{
         background-image: url("./img/wallpaper_battlefield_2042_01_1920x1080.jpg");
         width: 100%;
@@ -47,6 +85,10 @@ body{
         background-position: center;
         text-align: center;
         background-attachment: fixed;
+
+        .scroll{
+            width:50px;
+        }
 
         
     }
