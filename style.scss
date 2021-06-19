@@ -44,7 +44,7 @@ body{
         position: fixed;
         top: 0;
         width: 100%;
-        box-shadow: 10px 10px 20px #000000;
+        
         
 
         .logo{
@@ -85,6 +85,7 @@ body{
         background-position: center;
         text-align: center;
         background-attachment: fixed;
+        padding-bottom:20px;
 
         .scroll{
             width:50px;
@@ -208,5 +209,74 @@ body{
             margin-bottom:10vh;
         }
         
+    }
+    .section-three{
+        @include section;
+
+        .price-card{
+            width:400px;
+            min-height:100px;
+            border: 3px solid #4a5d79;
+            border-radius: 17px;
+
+            .head{
+                padding-top: 20px;
+                padding-bottom:20px;
+                width:100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .price{
+                padding-top: 20px;
+                padding-bottom:20px;
+                width:100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #4a5d79;
+                
+            }
+            .points{
+                padding-top: 20px;
+                padding-bottom:20px;
+                width:100%;
+
+                ul{
+                    line-height: 2;
+                    list-style: none;
+
+                    li{
+                        font-size: 28px;
+                    }
+                }
+
+            }
+            .button{
+                padding-top: 20px;
+                padding-bottom:20px;
+                width:100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                border-top: 3px solid #4a5d79;
+
+                .get{
+                    @include button;
+                }
+
+            }
+
+            
+        }
+        .col-md-6{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .row{
+            padding-top: 5vh;
+        }
     }
 }
