@@ -9,7 +9,6 @@ body {
   background-color: black;
   color: white;
   font-family: "Roboto", sans-serif;
-  cursor: url("./img/14197462201580211788-128.png"), auto;
 }
 body .navbar-one {
   height: 80px;
@@ -87,7 +86,6 @@ body .section-one .right .create {
   background-color: #4a5d79;
   color: white;
   transition: 0.5s;
-  cursor: url("./img/14197462201580211788-128.png"), auto;
 }
 body .section-one .right .create:hover {
   padding: 10px 40px;
@@ -200,7 +198,6 @@ body .section-two button {
   background-color: #4a5d79;
   color: white;
   transition: 0.5s;
-  cursor: url("./img/14197462201580211788-128.png"), auto;
 }
 body .section-two .view-button {
   margin-top: 10vh;
@@ -264,13 +261,56 @@ body .section-three .price-card .button .get {
   background-color: #4a5d79;
   color: white;
   transition: 0.5s;
-  cursor: url("./img/14197462201580211788-128.png"), auto;
 }
 body .section-three .col-md-6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5vh;
 }
 body .section-three .row {
   padding-top: 5vh;
+}
+body .newsletter {
+  margin-top: 10vh;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./img/9135.jpg");
+  background-position: cover;
+}
+body .newsletter form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body .newsletter form input {
+  margin: 10px;
+  min-width: 60%;
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+}
+body .newsletter form inputt::-moz-placeholder {
+  color: #4a5d79;
+  text-align: center;
+}
+body .newsletter form inputt:-ms-input-placeholder {
+  color: #4a5d79;
+  text-align: center;
+}
+body .newsletter form inputt::placeholder {
+  color: #4a5d79;
+  text-align: center;
+}
+body .newsletter form button {
+  margin: 10px;
+  border-radius: 40px;
+  padding: 10px 30px;
+  border: none;
+  background-color: #4a5d79;
+  color: white;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */

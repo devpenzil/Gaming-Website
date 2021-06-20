@@ -14,13 +14,15 @@
             
 }
 @mixin button {
-                border-radius: 40px;
+               border-radius: 40px;
                padding: 10px 30px;
                border: none;
                background-color: #4a5d79;
                color:white;
                transition: .5s;
-               cursor: url('./img/14197462201580211788-128.png'), auto;
+              
+               
+               
 
 }
 
@@ -33,7 +35,7 @@ body{
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
-    cursor: url('./img/14197462201580211788-128.png'), auto;
+    
 
     .navbar-one{
         height:80px;
@@ -274,9 +276,43 @@ body{
             display: flex;
             justify-content:center;
             align-items: center;
+            margin-top:5vh;
         }
         .row{
             padding-top: 5vh;
+        }
+    }
+    .newsletter{
+        margin-top: 10vh;
+        min-height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image:url('./img/9135.jpg');
+        background-position:cover;
+
+        form{
+            margin-top:30px;
+            margin-bottom:30px;
+
+            input{
+                margin: 10px;
+                min-width:60%;
+                padding: 10px;
+                border-radius: 40px;
+                border: none;
+            }
+            inputt::placeholder{
+                color: #4a5d79;
+                text-align: center;
+            }
+            button{
+                margin:10px;
+                @include button;
+            }
+
         }
     }
 }
